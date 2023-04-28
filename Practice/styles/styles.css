@@ -2,7 +2,7 @@ body {
     text-align: center;
   }
   nav {
-    background-color: steelblue;
+    background-color: rgba(79, 156, 119, 0.462);
     padding: 10px;
   }
   a {
