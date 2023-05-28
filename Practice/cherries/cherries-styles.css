@@ -1,0 +1,16 @@
+/* Cherries - not finished, learn more and come back*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100;
+    size: 100px;
+    background-color: pink;
+}
+
+body{ 
+    font-family: 'Georgia', 'Times New Roman', 'Times, serif';
+}
