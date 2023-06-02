@@ -69,10 +69,11 @@ nav a:hover{
  }
 
 .home-title{
-    font-family: 'Dancing Script', 'Brush Script MT (cursive)', 'Copperplate' ;
+    font-family: 'Dancing Script', 'Brush Script MT', 'cursive';
     font-size: 2em;
     color: #e4cb58;
     margin-top: 10px;
+    
 }
 
 #hero-msg h4{
