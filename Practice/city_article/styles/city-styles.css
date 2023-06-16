@@ -1,0 +1,46 @@
+body{
+    background-color: antiquewhite;
+}
+#hero_img{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding:0%
+}
+.subtitle{
+    text-align: center;
+    color: rgb(100, 134, 197);
+    padding-top: 20px;
+}
+.title{
+    text-align: center;
+}
+#overflowTest{
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: rgb(155, 155, 187);
+}
+.reading_min, .views_num, .comment_num{
+    text-align: center;
+    padding: 30px;
+}
+.reading_min, .views_num{
+    border-right: 2px solid rgba(0, 0, 0, 0.527);
+    z-index: 0;
+}
+#minutes, #read, #number, #views, #fifteen, #comments{
+    display:block;
+}
+#minutes, #number, #fifteen{
+    font-size: 25px;
+}
+#read, #views, #comments{
+    font-size: 15px;
+}
