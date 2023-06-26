@@ -4,8 +4,9 @@
 --paragraph-font: Roboto, Helvetica, sans-serif;
 */
 
-#content{
-    max-width: 1600px;
+body{
+    margin: 0;
+    padding: 0;
 }
 header{
     font-family: "Cormorant Garamond", serif;
@@ -52,6 +53,8 @@ nav a:hover {
 #hero_img{
     width: 100%;
     opacity: 0.59;
+    border: 0;
+    padding: 0;
 }
 #hero{
     position: relative;
@@ -113,6 +116,7 @@ nav a:hover {
 }
 #page_two_des, #page_three_des{
     padding-top: 30px;
+    color: #312523;
 }
 
 /*footer*/
@@ -133,4 +137,7 @@ footer a{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+#fb, #twitter, #insta{
+    padding: 4px;
 }
