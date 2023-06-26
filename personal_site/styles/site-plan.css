@@ -7,8 +7,8 @@ Fonts are separated by a | */
   /* change the values below to your colors from your palette */
   --primary-color: #EEE0CB   ;
   --secondary-color: #C2948A ;
-  --accent1-color: #896A58;
-  --accent2-color: #312523;
+  --accent1-color: #312523;
+  --accent2-color: #896A58;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Cormorant Garamond";
@@ -20,10 +20,10 @@ Fonts are separated by a | */
   --paragraph-color-on-white: #312523; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #C2948A  ;
-  --nav-link-color: #EEE0CB;
-  --nav-background-color: #896A58;
-  --nav-hover-link-color: white;
-  --nav-hover-background-color: #312523;
+  --nav-link-color:#312523;
+  --nav-background-color: white;
+  --nav-hover-link-color: #312523;
+  --nav-hover-background-color: #ebdcd4;
 }
 
 
