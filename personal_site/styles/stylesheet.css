@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Roboto&display=swap');
+/*
+--heading-font: "Cormorant Garamond";
+--paragraph-font: Roboto, Helvetica, sans-serif;
+*/
+
+#content{
+    max-width: 1600px;
+}
+header{
+    font-family: "Cormorant Garamond", serif;
+    background-color:white;
+    display: grid;
+    grid-template-columns: 150px auto;
+    padding: 15px
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+.logo{
+    height: 100px;
+    width: auto;
+}
+:root {
+    --mainColor: #ebdcd4;
+  }
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    padding: 35px;
+    background:
+     linear-gradient(
+       var(--mainColor) 0%,
+       var(--mainColor) 100%
+     );
+    background-position: 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    color:#312523;
+    text-decoration: none;
+    transition: background-size .2s;
+}
+nav a:hover {
+    background-size: 8px 50px;
+}
+
+/*hero seccion*/
+#hero_img{
+    width: 100%;
+    opacity: 0.59;
+}
+#hero{
+    position: relative;
+    color: white;
+    align-items: left;
+}
+#hero_msg{
+    position: absolute;
+    top: 30%;
+    padding-left: 25px;
+}
+.home_title, .home_subtitle{
+    padding: 15px;
+}
+.home_title{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 900%;
+    
+}
+.home_subtitle{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 200%;
+}
+
+/*home msg*/
+#home_msg_box{
+    background-color: #EEE0CB;
+    padding: 15%;
+    text-align: center;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 150%;
+}
+/*home container*/
+#home_container{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#page_two_img, #page_three_img{
+    transition: transform .5s;
+    width: 50%;
+}
+#page_two_img:hover, #page_three_img:hover{
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+#page_two_menu, #page_three_about{
+    padding-top: 30%;
+    padding-bottom: 30%;
+    text-align: center;
+    font-size: 100%;
+    font-family: "Cormorant Garamond", serif;
+}
+#page_two_menu{
+    grid-column: 1/2;
+}
+#page_three_about{
+    grid-column: 2/3;
+}
+#page_two_des, #page_three_des{
+    padding-top: 30px;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ebdcd4;
+    grid-template-columns: 150px auto;
+    padding: 15px;
+    text-decoration: none;
+    color: #312523;
+}
+footer a{
+    text-decoration: none;
+    color: #312523;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
