@@ -107,6 +107,7 @@ nav a:hover {
     text-align: center;
     font-size: 100%;
     font-family: "Cormorant Garamond", serif;
+    text-decoration: none;
 }
 #page_two_menu{
     grid-column: 1/2;
@@ -141,3 +142,115 @@ footer p a:hover{
 #fb, #twitter, #insta{
     padding: 4px;
 }
+
+/*page 2 - The menu*/
+
+#page_two_title{
+    background-color: #ebdcd4;/*#EEE0CB; #C2948A;*/
+    padding: 10%;
+    margin: 40px;
+    text-align: center;
+    font-size: 80px;
+    font-family: "Cormorant Garamond", serif;
+}
+#bestseller_section{
+    margin:auto;
+    align-self: center;
+    background-color: #EEE0CB;
+    color: #312523;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 50%;
+    min-width: 400px; 
+    font-family: "Cormorant Garamond", serif;
+}
+#bs_title{
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0px 50px 0px;
+    font-size: 40px;
+    text-decoration: underline #312523ed 1.8px;
+    color: #312523;
+}
+#bestseller_img{
+    height: 500px;
+    align-self: center;
+    margin: 0 auto;
+}
+#bs_des_t{
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+#bs_des{
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    padding-top: 60px;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+/*menu seccion*/
+#menu_container{
+    padding: 90px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+#conchas_box, #banana_box, #rosca_box, #cookies_box{
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 50px;
+    color: #312523;
+    font-size: 25px;
+    font-family: "Cormorant Garamond", serif;
+}
+#conchas_img, #cookies_img, #rosca_img, #banana_img{
+    height: 300px;
+}
+/*outro*/
+#page_two_quote{
+    text-align: center;
+    background-color: #EEE0CB;
+    color: #312523;
+    padding: 40px;
+    margin: 80px;
+}
+#page_two_quote p{
+    padding: 15px;
+    font-size: 25px;
+}
+/*this on menu items??
+#page_two_img, #page_three_img{
+    transition: transform .5s;
+    width: 50%;
+}
+#page_two_img:hover, #page_three_img:hover{
+    opacity: 0.6;
+    transform: scale(1.1);
+}*/
+
+/*Page 3 - about us */
+
+#about_msg_box{
+    background-color: #C2948A;
+    color: white;
+    padding: 50px;
+    text-align: left;
+    margin: 5%;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+#about_msg{
+    grid-column: 1/2;
+}
+#about_main_img{
+    grid-column: 2/3;
+    width: 90%;
+    padding-left: 30px;
+}
+
