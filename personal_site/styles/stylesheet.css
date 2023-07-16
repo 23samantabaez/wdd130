@@ -253,4 +253,28 @@ footer p a:hover{
     width: 90%;
     padding-left: 30px;
 }
+.flour_heart{
+    width: 30%;
+}
+#love_quote{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    display:flex;
+    text-align: center;
+    padding: 60px;
+}
+#c_page_two_button{
+    background-color: #EEE0CB;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#c_menu_title, #c_subt_menu{
+    grid-column: 1/2;
+    padding-bottom: 30px;
+}
+#c_menu{
+    grid-column: 2/3;
+    width: 100%;
+}
+
 
