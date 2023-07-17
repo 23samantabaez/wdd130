@@ -245,7 +245,14 @@ footer p a:hover{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
+#about_title{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 45px;
+}
 #about_msg{
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
     grid-column: 1/2;
 }
 #about_main_img{
@@ -253,35 +260,44 @@ footer p a:hover{
     width: 90%;
     padding-left: 30px;
 }
+.img_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .flour_heart_img{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column: 2/3;
-    height: 300px;
-    padding: 30px;
+    width: 30%;
+    padding-bottom: 15%;
 }
 #love_quote{
     font-family: "Cormorant Garamond", serif;
     font-size: 30px;
-    display:flex;
+    padding: 90px;
     text-align: center;
-    padding: 60px;
 }
-#c_page_two_button{
+.c_page_two_button{
     background-color: #EEE0CB;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-bottom: 120px;
+    text-decoration: none;
+    color: #312523;
 }
 #c_menu_title{
     grid-column: 1/2;
     padding: 30px;
     padding-top: 80px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 45px;
 }
 #c_subt_menu{
     grid-row: 2/3;
     padding-left: 30px;
     padding-right: 90px;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 17px;
 }
 #c_menu_img{
     grid-column: 2/3;
