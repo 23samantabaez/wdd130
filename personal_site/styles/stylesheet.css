@@ -59,7 +59,7 @@ nav a:hover {
 #hero{
     position: relative;
     color: white;
-    align-items: left;
+    align-items: flex-start;
 }
 #hero_msg{
     position: absolute;
